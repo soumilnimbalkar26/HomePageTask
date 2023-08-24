@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section2{
+    background-color: #2e82cb;
+    color: white;
+    width: 100%;
+    margin: 60px 0;
+    /* padding: 40px 0; */
+    overflow: hidden;
+}
+
+.section2content h2{
+    font-size: 42px;
+}
+
+.section2content h5{
+    font-size: 22px;
+}
+
+.section2texts{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 35px;
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.brands-container{
+    margin-bottom: 128px ;
+    padding: 48px 0;
+    
+}
+
+.content-wrapper{
+    padding: 48px;
+    background-color: rgb(182, 182, 182);
+
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0, 100px;
+    padding: 0, 12px;
+}
+
+.imgsize{
+    height: 104px;
+    width: 105px;
+    margin-right: 20px;
+}
+
+.btncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #2E82CB;
+    padding: 10px;
+    border-radius: 4px;
+}
