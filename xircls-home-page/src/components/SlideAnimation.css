@@ -1,0 +1,9 @@
+.carousel-indicators li {
+    background-color:white; /* Change this to your desired color */
+  }
+  
+  /* Change the color of the carousel controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color:black; /* Change this to your desired color */
+  }

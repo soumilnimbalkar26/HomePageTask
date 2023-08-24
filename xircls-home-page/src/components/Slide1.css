@@ -3,10 +3,10 @@
     margin: 0;
 }
 
-.section1{
+/* .section1{
     margin-bottom: 50px;
     margin-top: 100px;
-}
+} */
 
 .outerdiv{
     margin: 0 200px;
@@ -14,13 +14,14 @@
 
 .headinglogo{
     display: flex;
-    align-items: center;
+    align-items:start;
     justify-content: space-between;
 }
 
 .imgbox{
-    height: 216px;
-    width: 217px;
+    height: 250;
+    width: 250px;
+    padding-left: 20px;
 }
 
 .heading2{
@@ -28,7 +29,7 @@
 }
 
 .heading2 span{
-    color: cornflowerblue;
+    color: #2e82cb;
 }
 
 .text3{
@@ -44,6 +45,10 @@
 
 }
 
+/* .rowtext h6{
+    font-size: 18px;
+} */
+
 .flexboxes{
   display: flex;
   justify-content: start; 
@@ -55,16 +60,20 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    font-size: 22px;
+    font-size: 18px;
     width: 700px;
 }
+
+/* .flexcontainer h5{
+    border-right: black solid 1px;
+} */
 
 .percent{
     font-size: 42px;
 }
 
 .percentstats{
-    font-size: 32px;
+    font-size: 18px;
 }
 
 
@@ -76,11 +85,9 @@
 }
 
 
-
   
 
-  
-
-  
-
+   .custom-color {
+    color: #2e82cb; /* Replace with your desired color value */
+  }
   
