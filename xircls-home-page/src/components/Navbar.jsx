@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Dropdown from 'react-bootstrap/Dropdown';
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { FaAngleDown } from "react-icons/fa";
 import logo from "../images/xircls-logo.png";
@@ -12,55 +13,7 @@ import { Link } from "react-router-dom";
 const navbar = () => {
   return (
     <>
-      {/* <navbar className="navbar container bg-secondary ">
-        <ul className="list">
-          <div className="spacing">
-            <div className="logo">
-              <li>
-                <a href="#">
-                  <img src={logo} alt="img" />
-                </a>
-              </li>
-            </div>
-
-            <div className="navlinks ms-auto d-flex px-1 py-2">
-              <li className="linktext">
-                <a href="#">Home</a>
-              </li>
-
-              <li className="linktext">
-                <a href="#">About us</a>
-                <img className='dropdown' src={DropDown} alt="" />
-              </li>
-
-              <li className="linktext">
-                <a href="#">Products</a>
-                <img className='dropdown' src={DropDown} alt="" />
-              </li>
-
-              <li className="linktext">
-                <a href="#">Blog<FaAngleDown/></a>
-              </li>
-
-              <li className="linktext">
-                <a href="#">Team</a>
-              </li>
-
-              <li className="linktext">
-                <a href="#">Sign-Up</a>
-                <img className='dropdown' src={DropDown} alt="" />
-              </li>
-
-              <li className="linktext">
-                <a href="#">Login</a>
-                <img className='dropdown' src={DropDown} alt="" />
-              </li>
-            </div>
-          </div>
-        </ul>
-      </navbar> */}
-
-      <Navbar className="bg-white py-0 shadow-sm">
+      <Navbar className="bg-white py-0 shadow-sm sticky-top">
         <Container className="container my-0">
           <Navbar.Brand href="#home">
             <img

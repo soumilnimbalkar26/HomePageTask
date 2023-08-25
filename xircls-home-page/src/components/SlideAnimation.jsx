@@ -1,7 +1,7 @@
 import React from "react";
 import {Carousel} from "react-bootstrap";
 import Slide2 from "./Slide2";
-// import Slide3 from "./Slide3";
+import Slide3 from "./Slide3";
 import Slide1 from "./Slide1";
 import './SlideAnimation.css'
 
@@ -18,7 +18,7 @@ const SlideAnimation = () => {
           
         </Carousel.Item>
         <Carousel.Item>
-          <Slide1 />
+          <Slide3 />
           
         </Carousel.Item>
       </Carousel>

@@ -6,5 +6,8 @@
 
 .section9{
     background-color: #2e82cb;
-    margin-bottom: 200px;
+  }
+
+  .section9fontsize h2{
+    font-size:48px;
   }

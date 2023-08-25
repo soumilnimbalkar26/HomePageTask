@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -8,7 +8,7 @@
     color: white;
     width: 100%;
     margin: 60px 0;
-    /* padding: 40px 0; */
+    padding: 40px 0;
     overflow: hidden;
 }
 
@@ -27,4 +27,8 @@
   justify-content: center;
   color: white;
   padding: 35px;
+} */
+
+.sectiongoals{
+    background-color: #2e82cb;
 }

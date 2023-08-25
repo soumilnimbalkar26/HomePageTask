@@ -1,14 +1,17 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* *{
     padding: 0;
     margin: 0;
-}
+} */
 
 /* .section1{
     margin-bottom: 50px;
     margin-top: 100px;
 } */
 
-.outerdiv{
+/* .outerdiv{
     margin: 0 200px;
 }
 
@@ -49,7 +52,7 @@
     font-size: 18px;
 } */
 
-.flexboxes{
+/* .flexboxes{
   display: flex;
   justify-content: start; 
   align-items: center; 
@@ -62,13 +65,16 @@
     gap: 20px;
     font-size: 18px;
     width: 700px;
-}
+} */
 
 /* .flexcontainer h5{
     border-right: black solid 1px;
 } */
 
+
+/* 
 .percent{
+    font-size: 42px;
     font-size: 42px;
 }
 
@@ -88,6 +94,26 @@
   
 
    .custom-color {
-    color: #2e82cb; /* Replace with your desired color value */
+    color: #2e82cb; 
   }
-  
+   */
+
+   .h1size{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .ifontsize{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+
+  .pfontsize{
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .imgsizeslide1{
+    height: 260px;width: 260px;
+  }

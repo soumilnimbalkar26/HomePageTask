@@ -8,7 +8,7 @@ import './Globalnetwork.css'
 const Globalnetwork = () => {
   return (
     <>
-    <section className='section7'>
+    <section className='section7 py-5'>
         <div className='section7container1'>
           <h3>Join a Global Network of Companies</h3>
         </div>
@@ -16,7 +16,7 @@ const Globalnetwork = () => {
     <div className='alignimages'>
         <div className='image-text-container'>
           <div className='image'>
-          <img className ='gnimgsize' src={Decentralized} alt="decentralized" />
+          <img className='img-fluid' style={{ width: '64px', height: '64px' }} src={Decentralized} alt="decentralized" />
           </div>
           <div className='text'>
             <h4>DECENTRALIZED</h4>
@@ -28,7 +28,7 @@ const Globalnetwork = () => {
 
         <div className='image-text-container'>
           <div>
-          <img className ='gnimgsize' src={Peertopeer} alt="decentralized" />
+          <img className='img-fluid' style={{ width: '64px', height: '64px' }} src={Peertopeer} alt="decentralized" />
           </div>
           <div className='text'>
             <h4>PEER-TO-PEER VERIFIED</h4>
@@ -40,7 +40,7 @@ const Globalnetwork = () => {
 
         <div className='image-text-container'>
           <div>
-          <img className ='gnimgsize' src={Blockchain} alt="decentralized" />
+          <img className='img-fluid' style={{ width: '64px', height: '64px' }} src={Blockchain} alt="decentralized" />
           </div>
           <div className='text'>
             <h4>LEDGER-BASED</h4>
@@ -52,7 +52,7 @@ const Globalnetwork = () => {
 
         <div className='image-text-container'>
           <div>
-          <img className ='gnimgsize' src={Shield} alt="decentralized" />
+          <img className='img-fluid' style={{ width: '64px', height: '64px' }} src={Shield} alt="decentralized" />
           </div>
           <div className='text'>
             <h4>NO DATA SHARING</h4>

@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Slide1 from "./components/Slide1";
+// import Slide1 from "./components/Slide1";
 import Brands from "./components/Brands";
 import Goals from "./components/Goals";
 import Traffic from "./components/Traffic";
@@ -16,7 +16,9 @@ import FootSignupBtn from "./components/FootSignupBtn";
 import FooterHome from "./components/FooterHome";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SlideAnimation from "./components/SlideAnimation";
-import Slide2 from "./components/Slide2";
+// import Slide2 from "./components/Slide2";
+import Loading from "./components/Loading";
+// import Slide3 from "./components/Slide3";
 
 // import Loading from "./components/Loading";
 
@@ -24,9 +26,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Carousel /> */}
       <SlideAnimation />
-      
       <Brands />
       <Goals />
       <Traffic />
@@ -39,7 +39,7 @@ function App() {
       <Services />
       <Promotion />
       <Rewards />
-      {/* <Loading /> */}
+      <Loading />
       <FootSignupBtn />
       <FooterHome />
     </>

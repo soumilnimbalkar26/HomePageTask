@@ -1,55 +1,53 @@
-import React from 'react'
+import React from "react";
 import Icon from "../images/logo12.jpg";
+import "./Slide3.css";
 
 const Slide3 = () => {
   return (
     <>
-        <section className="section1">
-        <div className="outerdiv">
-          <div className="headinglogo">
-            <h1 className="heading2">
-              The<span className="text-primary">Worlds First Decentralized, Collaborative</span>Marketing
-              Network
-            </h1>
-            <img className="imgbox ms-auto" src={Icon} alt="icon" />
+      <section className="py-1">
+        <div className="">
+          <div className="container d-flex ">
+            <div className="">
+              <h1 className="h1size">
+                Say Hello To Always-On{" "}
+                <span className="text-primary">Marketing!</span>
+              </h1>
+              <div className="py-4">
+              <i className="slide3fontsize">
+                Because Customers Shop When They Want To. Not When You Want Them
+                To.
+              </i>
+              </div>
+              <div className="Lose">
+              <p>
+                Stop-Start Marketing Campaigns Lose You Customers Buying Right
+                Now.
+              </p>
+              </div>
+              <div className="d-flex pt-4">
+                <p className="Lose border-end pe-2">
+                  Run a perpetual marketing campaign
+                </p>
+                <p className="Lose border-end px-4">
+                  Reach customers when they're most likely to buy from you.
+                </p>
+                <p className="Lose border-end px-4">
+                  Lock your competition out.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img className="img-fluid" src={Icon} alt="icon" />
+            </div>
           </div>
-
           <div>
-            <h3 className="text3">
-              <i>Building the Web3 of Marketing</i>
-            </h3>
-          </div>
-
-          <div className="rowtext">
-            <div>
-              <h1 className="percent">100%</h1>
-              <h6 className="percentstats">Verified Cstomer Engagement</h6>
-            </div>
-
-            <div>
-              <h1 className="percent">3%</h1>
-              <h6 className="percentstats">Average Click Through</h6>
-            </div>
-
-            <div>
-              <h1 className="percent">13%</h1>
-              <h6 className="percentstats">Conversion Rate</h6>
-            </div>
-          </div>
-
-          <div className="flexboxes">
-            <div className="flexcontainer">
-              <h5>Instant Marketing Colaboration</h5>
-              <h5>Ledger based verification</h5>
-              <h5>Real-Time Customer Reach</h5>
-              <h5>Instant Customer Gratification</h5>
-              <h5>No Data Sharing</h5>
-            </div>
+            <p></p>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Slide3
+export default Slide3;

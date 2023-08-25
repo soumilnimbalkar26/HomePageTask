@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ *{
+    font-family: 'Open Sans', sans-serif;
+ }
+
+.h1size{
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .ifontsize{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+
+  .slide3fontsize{
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .Lose{
+    font-size: 20px;
+
+  }

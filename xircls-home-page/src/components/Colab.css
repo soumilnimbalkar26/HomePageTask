@@ -7,19 +7,11 @@
   background-color: #2e82cb;
 }
 
-.section6container1 {
-  margin: 0 auto;
-  max-width: 1000px; /* Set a maximum width for the container */
-  padding: 20px; /* Add some padding around the container */
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-}
-
   .section6container1 h2{
-    color: white;
-    font-size: 48px;
     text-align: center;
 
+  }
+
+  .section6fontsize{
+    font-size: 48px;
   }

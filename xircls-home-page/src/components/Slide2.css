@@ -1,4 +1,10 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -12,8 +18,24 @@
   
   .flexcontainer{
       display: flex;
-      flex-direction: row;
+      flex-direction: row;  
       gap: 20px;
       font-size: 18px;
       width: 700px;
+  } */
+
+  .h1size{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .ifontsize{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+
+  .pfontsize{
+    font-size: 22px;
+    text-align: left;
   }

@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-.section7{
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
 .section7container1{
     padding: 80px, 12px;
     display: flex;
@@ -22,10 +17,10 @@
 
   }
 
-  .gnimgsize{
+  /* .gnimgsize{
     height: 64px;
     width: 64px;
-  }
+  } */
 
   .alignimages{
     display: flex;
